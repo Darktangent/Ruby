@@ -13,3 +13,6 @@ end
 file_counts["gif"] = 88
 
 puts file_counts
+#deleting elements
+file_counts.delete("gif")
+

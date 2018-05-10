@@ -1,4 +1,4 @@
-x = ["Now [1,2.3],","we","are","cooking","!"]
+x = [["Now [1,2.3]],","we","are","cooking","!"]]
 puts x
 x.class 
 #indexing

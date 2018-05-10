@@ -1,6 +1,7 @@
 class Piglet
-    def speak
-        puts "oik, oink!"
+    def speak (inp)
+        #puts "oik, oink!"
+        puts inp
     end
     
     def pig_ears(age)
@@ -10,6 +11,6 @@ class Piglet
 end
 
 hamlet = Piglet.new
-hamlet.speak
+hamlet.speak("oink oink!")
 hamlet.age(1)
 
