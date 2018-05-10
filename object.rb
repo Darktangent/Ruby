@@ -5,6 +5,8 @@ end
 
 
 class Apple < Fruit
+    def description
+        puts "The color of the apple is #{@color) "
 end
 
 class Grape < Fruit
@@ -15,6 +17,7 @@ gala.color = "red"
 gala.flavor = "sweet"
 puts gala.color
 puts gala.flavor
+gala.description
 #instance of Grape
 carnelian = Grape.new
 carnelian.flavor="sweet"
