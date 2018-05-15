@@ -1,0 +1,10 @@
+#creating an alert for any node that has low memory for more than 30 minutes
+
+ALERT LowNodeMemory
+IF node_memory_available < 500000000
+For 30m
+LABELS {severity ="page"}
+ANNOTATIONS {
+          summary = "Node is running out of RAM.",
+          description = "The node has less than 500MB of memory for more than 30 minutes"
+          }
